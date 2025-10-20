@@ -19,3 +19,4 @@ echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.defa
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
 git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
+echo 'src-git fm350webui https://gitee.com/kcro/luci-app-fm350webui.git' >> feeds.conf.default
