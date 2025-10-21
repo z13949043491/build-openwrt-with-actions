@@ -14,7 +14,7 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 #echo 'src-git kenzok8 https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git UA3F https://github.com/SunBK201/UA3F.git' >>feeds.conf.default
-echo 'src-git qmodem https://github.com/FUjr/QModem.git;dial/L610_dial' >> feeds.conf.default
+echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.default
 ./scripts/feeds update qmodem
 ./scripts/feeds install -a -p qmodem
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
