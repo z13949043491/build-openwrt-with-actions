@@ -21,8 +21,9 @@ echo 'src-git qmodem https://github.com/FUjr/QModem.git;main' >> feeds.conf.defa
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
 git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
-echo 'src-git fm350webui https://gitee.com/kcro/luci-app-fm350webui.git' >> feeds.conf.default
-echo >> feeds.conf.default
+echo 'src-git fm350webui https://gitee.com/kcro/luci-app-fm350webui.git;master' >> feeds.conf.default
+./scripts/feeds update fm350webui
+./scripts/feeds install -a -p fm350webui
 echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
 ./scripts/feeds update istore
 ./scripts/feeds install -d y -p istore luci-app-store
