@@ -17,9 +17,7 @@ sed -i 's/OpenWrt/ZWRT/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/SunBK201/UA3F.git package/UA3F
 git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
-git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-git clone https://github.com/kenzok8/small.git package/small
 git clone https://github.com/SunBK201/UA3F.git package/UA3F
-git clone https://github.com/stevenjoezhang/luci-app-adguardhome.git package/ADGH
+git clone https://github.com/FUjr/QModem.git
 git clone https://github.com/linkease/istore.git package/istore
 git clone https://gitee.com/kcro/luci-app-fm350webui.git package/fm350webui
