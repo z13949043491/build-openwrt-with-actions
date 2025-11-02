@@ -21,3 +21,4 @@ git clone https://github.com/SunBK201/UA3F.git package/UA3F
 git clone https://github.com/FUjr/QModem.git package/QModme
 git clone https://github.com/linkease/istore.git package/istore
 git clone https://gitee.com/kcro/luci-app-fm350webui.git package/fm350webui
+git clone https://github.com/nikkinikki-org/OpenWrt-momo.git package/momo
